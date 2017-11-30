@@ -4,8 +4,8 @@
   "description": "wmreact-base",
   "main": "lib/index.js",
   "author": {
-    "name": "",
-    "url": "https://github.com/"
+    "name": "Sheng Di",
+    "url": "https://github.com/didi0613"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,14 @@
   },
   "homepage": "https://github.com//",
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1"
+    "@walmart/wmreact-analytics": "^5.0.1",
+    "@walmart/wmreact-image-utils": "^3.0.0",
+    "@walmart/wmreact-layout": "^9.1.0",
+    "classnames": "^2.2.3",
+    "lodash": "^4.0.0",
+    "object-assign": "^4.1.0",
+    "react-imageloader": "^2.1.0",
+    "xclap": "^0.2.0"
   },
   "devDependencies": {
     "electrode-archetype-react-component": "^4.0.0",

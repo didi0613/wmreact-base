@@ -1,0 +1,6 @@
+<div>
+  {(() => {
+    const FocusComp = focusOnMount("input");
+    return <FocusComp />;
+  })()}
+</div>

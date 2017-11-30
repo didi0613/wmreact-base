@@ -1,1 +1,13 @@
-export { default as WmreactBase } from "./components/wmreact-base";
+export { default as Body } from "./components/body";
+export { default as Copy } from "./components/copy";
+export { default as Descriptions } from "./components/descriptions";
+export { default as Heading } from "./components/heading";
+export { default as Icon } from "./components/icon";
+export { default as Image } from "./components/image";
+export { default as ImageLoader } from "./components/image-loader";
+export { default as Link } from "./components/link";
+export { default as Tile } from "./components/tile";
+export { default as Video } from "./components/video";
+export { default as SkipLink } from "./components/skip-link";
+export { default as focusOnMount } from "./wrappers/focus-on-mount";
+export { default as focusOnChange } from "./wrappers/focus-on-change";

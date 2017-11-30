@@ -1,0 +1,8 @@
+<Tile
+  alt="A Tile"
+  height={90}
+  id="tile-component"
+  src="http://placehold.it/90x90"
+  title="My Tile"
+  url="http://walmart.com"
+  width={90} />

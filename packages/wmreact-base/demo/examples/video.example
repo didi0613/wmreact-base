@@ -1,0 +1,10 @@
+<div>
+  <Video
+  src={"https://smedia.webcollage.net/rwvfp/wc/live/17563573/module/eedar/eedarvideos/feed/assets/video9a12f8df630280d703c25cd301892b29.mp4.mp4full.mp4"}
+  poster={"https://smedia.webcollage.net/rwvfp/wc/live/20769134/module/eedar/eedarvideos/feed/assets/images/image9a12f8df630280d703c25cd301892b29.jpg.w960.jpg"}
+  muted={false}
+  autoPlay={false}
+  controls={true}
+  playIconLink={"http://i5.walmartimages.com/dfw/63fd9f59-1300/k2-_2bbc583b-97b9-4c47-a25e-222730938baf.v1.png"}>
+  </Video>
+</div>

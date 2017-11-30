@@ -1,0 +1,30 @@
+<div style={{position: "relative"}}>
+  <SkipLink
+    scrollToView={true}
+    referenceId="skipToModule"
+    linkText="Skip to somewhere"/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div id="skipToModule"
+    onFocus={() => {
+        console.log("OnFocus Triggered!")
+      }}
+  >
+    Walmart Home
+  </div>
+</div>

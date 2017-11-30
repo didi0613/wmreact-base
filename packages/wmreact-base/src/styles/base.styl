@@ -1,0 +1,169 @@
+$footer-height = 40px;
+@require "./tenants/"+$tenant+"/base";
+@require "~@walmart/wmreact-layout/src/styles/grid";
+
+a:hover,
+.btn-fake-link:hover {
+  color: $blue-hyperlink-hover;
+}
+a:focus,
+.btn-fake-link:focus {
+  out-line("default");
+}
+
+.arrow-link:after {
+  content: "";
+  display: inline-block;
+  to-rem(margin-left, 10px);
+  border: 4px solid transparent;
+  border-left-color: $blue;
+  transition: .3s ease transform;
+  transform-origin: 2px 4px;
+  vertical-align: middle;
+}
+
+.dropdown-link {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.dropdown-link:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  to-rem(margin, 0 0 0 5px);
+  border: 4px solid transparent;
+  border-top-color: $yellow;
+  transition: .3s ease transform;
+  transform-origin: center 2px;
+  vertical-align: middle;
+}
+
+.dropdown-link:hover:after {
+  transform: rotate(-180deg);
+}
+
+.zeus-header {
+  position: relative;
+  padding: 8px 2em;
+  background: $blue;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+  color: $yellow;
+}
+
+.zeus-header a,
+.zeus-header .dropdown-link {
+  color: $white;
+}
+
+.zeus-header .container {
+  to-rem(padding, 0 30px 0 40px);
+}
+
+.arrow-link-before:before {
+  content: "";
+  display: inline-block;
+  to-rem(margin-right, 10px);
+  border: 4px solid transparent;
+  border-right-color: $black;
+  transition: .3s ease transform;
+  transform-origin: 2px 4px;
+  vertical-align: middle;
+}
+
+.zeus-header-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.zeus-header-logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.zeus-header-logo h1 {
+  display: inline-block;
+  to-rem(margin, 0 0 0 7px);
+  color: $white;
+
+  to-rem(font-size, 25px);
+  font-weight: 400;
+  to-rem(line-height, 1);
+  vertical-align: middle;
+}
+
+.zeus-footer-container {
+  to-rem(padding-left, 10px);
+}
+
+.zeus-footer-right {
+  text-align: right;
+  to-rem(line-height, 15px);
+}
+
+.zeus-footer-right .zeus-footer-left-content {
+  display: inline-block;
+  font-size: .8rem;
+  to-rem(padding-right, 20px);
+}
+
+.zeus-footer-right .zeus-footer-right-content {
+  display: inline-block;
+  font-size: .8rem;
+  to-rem(padding-right, 20px);
+}
+
+@media only screen and (max-width: 544px) {
+  .zeus-header img { /* body */
+    width: 130px;
+  }
+
+  .zeus-header h1 { /* body */
+    font-size: 1.2rem;
+  }
+}
+
+.elc-icon-spark {
+  color: $yellow;
+}
+
+.body-wrapper {
+  margin-bottom: $footer-height;
+}
+
+.video_wrapper {
+  position: relative;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+
+  // disables the html5 playback button on
+  // ios devices. See: http://stackoverflow.com/a/36401013
+  .video_control::-webkit-media-controls-start-playback-button {
+    display: none;
+  }
+}
+
+.video_icon_none {
+  display: none;
+}
+
+.video_icon_show {
+  float: left;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  cursor: pointer;
+}
+
+.video_icon_text {
+  width: 100%;
+  text-align: center;
+  background-color: $white;
+  border-radius: 4px;
+}
