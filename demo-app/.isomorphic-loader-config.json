@@ -1,0 +1,30 @@
+{
+  "valid": true,
+  "version": "1.6.4",
+  "timestamp": 1512024140691,
+  "context": "src/client",
+  "output": {
+    "path": "dist/js",
+    "filename": "[name].bundle.dev.js",
+    "publicPath": "http://localhost:2992/js/"
+  },
+  "assets": {
+    "marked": {
+      "src/client/images/electrode.png": "2b7ac2d4ff91cca5b9c8e742eda58b24.png"
+    },
+    "chunks": {
+      "main": [
+        "main.bundle.dev.js",
+        "main.style.1403cc6d53b023edfc7b.css",
+        "main.style.css"
+      ]
+    }
+  },
+  "webpackDev": {
+    "skipSetEnv": false,
+    "url": "http://localhost:2992",
+    "addUrl": false
+  },
+  "isWebpackDev": true,
+  "assetsFile": "dist/isomorphic-assets.json"
+}
